@@ -1,0 +1,182 @@
+body {
+  position: relative;
+  height: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(40, 44, 52, 0.9);
+  min-height: 10vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  font-weight: 700;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: 65%;
+  border-radius: 100%;
+  background-color: none;
+}
+.banner-box {
+  height: 40rem;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  height: 90%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.table-style {
+  width: 55vw;
+  margin: 15% auto;
+  border: 1.5px solid #464950;
+  margin: 100px auto;
+}
+.header-style,
+.footer-box {
+  background-color: rgba(40, 44, 52, 0.9);
+  height: 3.7rem;
+  color: white;
+
+  border-width: 1.5px;
+}
+.table-border {
+  border: 1.5px solid #464950;
+}
+.btn-wide {
+  background-color: #f1b964;
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 50px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  background-color: rgba(40, 44, 52, 0.9);
+}
+
+.footer-inner {
+  padding: 2rem;
+  margin-top: 3.2rem;
+  font-size: calc(8px + 1vmin);
+  font-weight: 600;
+}
+
+/* ///////////////////////////////////////// */
+
+.ticket {
+  height: 100vh;
+  background-color: rgba(251, 238, 219, 0.578);
+  margin: 5rem auto;
+  /* border: 1.5px solid rgba(58, 52, 52, 0.269); */
+  border-radius: 7px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-box {
+  /* background-color:#61dafb; */
+  height: 80vh;
+  border: 1px solid rgba(58, 52, 52, 0.269);
+  border-radius: 7px;
+}
+.info-box {
+  /* background-color: red; */
+  height: 60vh;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: space-around;
+  /* border: 1px solid rgba(58, 52, 52, 0.269); */
+  border-radius: 7px;
+}
+
+
+.pet-info {
+  margin: 1.2rem;
+  height: 20%;
+  flex-basis: 15rem;
+  border: 1px solid rgba(58, 52, 52, 0.269);
+  color: #464950;
+  border-radius: 7px;
+}
+.info-label {
+  font-weight: bold;
+  height: 3vh;
+  background-color: rgba(248, 229, 199, 0.766);
+}
+.input-field {
+  width: inherit;
+  margin: 1rem;
+  height: 15%;
+}
+.input-box {
+  width: 99%;
+  margin: auto;
+  height: 100%;
+}
+.btn-area{
+  width: 60%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-small{
+  width: 10rem;
+  height: 5vh;
+  font-size: 18px;
+  background-color: #f1b964;
+  font-weight: 700;
+  border-radius: 50px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.newTicket{
+  height: 85vh;
+  text-align: center;
+}
+
+.form-register{
+  background-color:antiquewhite;
+  border: 1px solid rgba(58, 52, 52, 0.269);
+  border-radius: 7px;
+  width: 50%;
+  padding: 5%;
+  margin: auto;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-floating{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.form-control{
+  height: 3vh;
+  border-radius: 7px;
+}
